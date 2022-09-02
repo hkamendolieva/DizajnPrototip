@@ -2,107 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lesson 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+    <title>Lesson 1: Algebra foundations</title>
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
-<body class="bg-dark">
+<body style="background-color: mediumpurple">
 <div class="navbar navbar-expand-lg navbar-light bg-light mb-5">
     <div class="container">
         <ul class="navbar-nav me-auto">
-            <li class="navbar-brand"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="navbar-brand"><a class="nav-link" href="index.html">MathAcademy</a></li>
         </ul>
         <div class="d-flex justify-content-end">
-            <a href="./signIn.html" class="nav-link btn btn-dark text-light me-2 active" role="button">Sign in</a>
-            <a href="SignUp.html" class="nav-link btn btn-dark text-light" role="button">Sign up</a>
+            <a href="./signIn.html" class="nav-link btn btn-purple text-light me-2 active" role="button">Sign in</a>
+            <a href="SignUp.html" class="nav-link btn btn-purple text-light" role="button">Sign up</a>
         </div>
     </div>
 </div>
-<div class="container bg-light rounded">
-    <h2 class="p-2 text-dark">Lesson 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+<div class="container bg-light rounded pb-2">
+    <h2 class="p-2 text-dark fst-italic">Lesson 1: Algebra foundations</h2>
     <nav class="p-2" style="--bs-breadcrumb-divider: '>';">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#" class="link-dark text-decoration-none">Home</a></li>
-            <li class="breadcrumb-item"><a href="./algebra1.html" class="link-dark text-decoration-none">Algebra 1</a>
+            <li class="breadcrumb-item"><a href="./index.html"
+                                           class="link-purple text-decoration-none fst-italic">Home</a></li>
+            <li class="breadcrumb-item"><a href="./algebra1.html" class="link-purple text-decoration-none fst-italic">Algebra
+                1</a>
             </li>
-            <li class="breadcrumb-item active">Lesson 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li class="breadcrumb-item active fst-italic">Lesson 1: Algebra foundations</li>
         </ol>
     </nav>
     <hr>
-    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor non quam ultricies fermentum
-        quis a
-        leo.
-        Pellentesque facilisis elit ut libero malesuada, nec ultrices risus tempus. Donec ac quam ultrices, sodales
-        nisi
-        et, feugiat ex. Integer ac erat pretium, pharetra ipsum sed, hendrerit felis. Morbi congue nisi nec dolor
-        dapibus, nec lacinia lectus cursus. Quisque semper, tortor gravida malesuada lobortis, tortor mi finibus
-        quam,
-        at semper tellus purus at felis. Nunc luctus diam nisi, ut maximus lorem tempor id. Morbi nibh augue,
-        egestas in
-        mi eget, lacinia volutpat ante. Phasellus ullamcorper dictum rutrum. Mauris sit amet elementum est, quis
-        tristique ipsum. Donec la
-    </p>
-    <hr>
-    <p>The lesson can also have a video</p>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                allowfullscreen></iframe>
-    </div>
-    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor non quam ultricies fermentum
-        quis a
-        leo.
-        Pellentesque facilisis elit ut libero malesuada, nec ultrices risus tempus. Donec ac quam ultrices, sodales
-        nisi
-        et, feugiat ex. Integer ac erat pretium, pharetra ipsum sed, hendrerit felis. Morbi congue nisi nec dolor
-        dapibus, nec lacinia lectus cursus. Quisque semper, tortor gravida malesuada lobortis, tortor mi finibus
-        quam,
-        at semper tellus purus at felis. Nunc luctus diam nisi, ut maximus lorem tempor id. Morbi nibh augue,
-        egestas in
-        mi eget, lacinia volutpat ante. Phasellus ullamcorper dictum rutrum. Mauris sit amet elementum est, quis
-        tristique ipsum. Donec la
-    </p>
-    <hr>
-    <div class="card" style="width: 20rem">
-        <div class="card-body">
-        <h5 class="card-title">Now let's practice</h5>
-        <button class="btn btn-dark text-light p-2" data-bs-toggle="modal" data-bs-target="#modal">Star practice test
-            for Lesson
-            1
-        </button>
+    <div class="row">
+        <div class="ms-3 card my-2 card-purple" style="width: 80rem">
+            <div class="card-body">
+                <h5 class="card-title">Overview and history of algebra</h5>
+                <hr>
+                <div class="ratio ratio-21x9">
+                    <iframe src="https://www.youtube.com/watch?v=_LDR1_Prveo" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="modal" id="modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Practice test for Lesson 1</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    <div class="row">
+        <div class="ms-3 card my-2 card-purple" style="width: 80rem">
+            <div class="card-body">
+                <h5 class="card-title">Introduction to variables</h5>
+                <hr>
+                <p class="card-text">Variable in algebra is a symbol (usually a letter) standing in for an unknown
+                    numerical value in an equation. For exapmle let's say we want to evaluate the expression a + 4.
+                    Well, first we need to know the value of the variable a. For example, to evaluate the expression
+                    when a = 1, we just replace <span class="fw-bold">a</span> with 1 <br>
+                <div class="text-center">
+                    a+4=
+                    <br>
+                    =1+4
+                    <br>
+                    =5
                 </div>
-                <div class="modal-body">
-                    <p>Question 1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tortor non quam ultricies fermentum quis a
-                        leo.
-                        Pellentesque facilisis elit ut libero malesuada, nec ultrices risus tempus. Donec ac quam ultrices, sodales
-                        nisi</p>
-                    <hr>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="rbtn" id="rbtn1">
-                        <label class="form-check-label" for="rbtn1">Option 1</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="rbtn" id="rbtn2">
-                        <label class="form-check-label" for="rbtn2">Option 2</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="rbtn" id="rbtn3">
-                        <label class="form-check-label" for="rbtn3">Option 3</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="rbtn" id="rbtn4">
-                        <label class="form-check-label" for="rbtn4">Option 4</label>
-                    </div>
+                <br>
+                So, the expression a + 4, equals 5 when a = 1.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="ms-3 card my-2 card-purple" style="width: 80rem">
+            <div class="card-body">
+                <h5 class="card-title">Substitution and evaluating expressions</h5>
+                <hr>
+                <p class="card-text">Let's say we want to evaluate the expression 10 + 2p - 3r. Well, first we need to
+                    know the values of p and r. For example, to evaluate the expression when p = 4 and r = 5, we just
+                    replace p with 4 and r with 5:
+                <div class="text-center">
+                    10 + 2p - 3r=
+                    <br>
+                    =10 + 2*4 - 3*5
+                    <br>
+                    =10 + 8 -15
+                    <br>
+                    =3
                 </div>
-                <div class="modal-footer">
-                    <a class="btn btn-dark text-light" href="">Next question</a>
+                So, the expression 10 + 2p - 3r equals 3 when p = 4 and r = 5.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="ms-3 card my-2 card-purple" style="width: 80rem">
+            <div class="card-body">
+                <h5 class="card-title">Introduction to equivalent expressions</h5>
+                <hr>
+                <div class="ratio ratio-21x9">
+                    <iframe src="https://www.youtube.com/watch?v=rHNY01R2VSQ" allowfullscreen></iframe>
                 </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="card ms-3 my-2 col-8 card-purple">
+            <div class="card-body">
+                <h5 class="card-title">Now let's practice</h5>
+                <p class="card-text">
+                    This test have questions from the lesson Algebra foundations i.e. from the subtopics we covered
+                    above.
+                </p>
+                <a href="./exam_lesson1.html" class="card-link btn btn-purple text-light">Star practice test for Lesson
+                    1</a>
             </div>
         </div>
     </div>

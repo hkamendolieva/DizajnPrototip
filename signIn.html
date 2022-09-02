@@ -5,15 +5,15 @@
     <title>Sign in</title>
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
-<body class="bg-dark">
+<body style="background-color: mediumpurple">
 <div class="navbar navbar-expand-lg navbar-light bg-light mb-5">
     <div class="container">
         <ul class="navbar-nav me-auto">
-            <li class="navbar-brand"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="navbar-brand"><a class="nav-link" href="index.html">MathAcademy</a></li>
         </ul>
         <div class="d-flex justify-content-end">
-            <a href="./signIn.html" class="nav-link btn btn-dark text-light me-2 active" role="button">Sign in</a>
-            <a href="SignUp.html" class="nav-link btn btn-dark text-light" role="button">Sign up</a>
+            <a href="./signIn.html" class="nav-link btn btn-purple text-light me-2 active" role="button">Sign in</a>
+            <a href="SignUp.html" class="nav-link btn btn-purple text-light" role="button">Sign up</a>
         </div>
     </div>
 </div>
@@ -22,15 +22,15 @@
         <form class="m-4">
             <div class="my-2">
                 <label class="form-label mt-2" for="email">Email or Username</label>
-                <input type="text" class="form-control" id="email">
+                <input type="text" class="form-control" id="email" required>
             </div>
             <div class="mb-2">
                 <label class="form-label" for="pass">Password</label>
-                <input type="password" class="form-control" id="pass">
+                <input type="password" class="form-control" id="pass" required>
                 <a href="#" class="form-text text-decoration-none fw-bold">Forgot password?</a>
             </div>
-            <button type="submit" class="form-control btn btn-dark text-light my-3">Sign in</button>
-            <p class="form-text text-center">Don't have an account? <a href="SignUp.html" class="link-dark fw-bold">Sign
+            <button type="submit" class="form-control btn btn-purple text-light my-3">Sign in</button>
+            <p class="form-text text-center">Don't have an account? <a href="SignUp.html" class="link-purple fw-bold">Sign
                 up</a></p>
         </form>
     </div>

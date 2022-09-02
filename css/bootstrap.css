@@ -2997,6 +2997,7 @@ textarea.form-control-lg {
 }
 .btn:hover {
   color: #212529;
+  border-color: yellow;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -3005,6 +3006,16 @@ textarea.form-control-lg {
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
   opacity: 0.65;
+}
+.btn-purple{
+  color: #fff;
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
+}
+.btn-purple:hover {
+  color: #fff;
+  background-color: mediumpurple;
+  border-color: mediumpurple;
 }
 
 .btn-primary {
@@ -4497,6 +4508,11 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
+.card-purple{
+  background-color: plum;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -6463,6 +6479,13 @@ textarea.form-control-lg {
   color: #212529;
 }
 .link-dark:hover, .link-dark:focus {
+  color: #1a1e21;
+}
+
+.link-purple {
+  color: rebeccapurple;
+}
+.link-purple:hover, .link-dark:focus {
   color: #1a1e21;
 }
 

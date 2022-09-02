@@ -5,15 +5,15 @@
     <title>Sign Up</title>
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
-<body class="bg-dark">
+<body style="background-color: mediumpurple">
 <div class="navbar navbar-expand-lg navbar-light bg-light mb-5">
     <div class="container">
         <ul class="navbar-nav me-auto">
-            <li class="navbar-brand"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="navbar-brand"><a class="nav-link link-purple" href="index.html">MathAcademy</a></li>
         </ul>
         <div class="d-flex justify-content-end">
-            <a href="./signIn.html" class="nav-link btn btn-dark text-light me-2 active" role="button">Sign in</a>
-            <a href="./SignUp.html" class="nav-link btn btn-dark text-light" role="button">Sign up</a>
+            <a href="./signIn.html" class="nav-link btn btn-purple text-light me-2 active" role="button">Sign in</a>
+            <a href="./SignUp.html" class="nav-link btn btn-purple text-light" role="button">Sign up</a>
         </div>
     </div>
 </div>
@@ -22,30 +22,30 @@
         <form class="m-4">
             <div class="my-2">
                 <label class="form-label mt-2" for="first">First Name</label>
-                <input type="text" class="form-control" id="first">
+                <input type="text" class="form-control" id="first" value="" required>
             </div>
             <div class="my-2">
                 <label class="form-label mt-2" for="last">Last Name</label>
-                <input type="text" class="form-control" id="last">
+                <input type="text" class="form-control" id="last" required>
             </div>
             <div class="my-2">
                 <label class="form-label mt-2" for="username">Username</label>
-                <input type="text" class="form-control" id="username">
+                <input type="text" class="form-control" id="username" required>
             </div>
             <div class="my-2">
                 <label class="form-label mt-2" for="email">Email</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" required>
             </div>
             <div class="mb-2">
                 <label class="form-label" for="pass">Password</label>
-                <input type="password" class="form-control" id="pass">
+                <input type="password" class="form-control" id="pass" required>
             </div>
             <div class="mb-2">
                 <label class="form-label" for="passConf">Confirm Password</label>
-                <input type="password" class="form-control" id="passConf">
+                <input type="password" class="form-control" id="passConf" required>
             </div>
-            <button type="submit" class="form-control btn btn-dark text-light my-3">Sign up</button>
-            <p class="form-text text-center">Already have an account? <a href="./signIn.html" class="link-dark fw-bold">Sign
+            <button type="submit" class="form-control btn btn-purple text-light my-3">Sign up</button>
+            <p class="form-text text-center">Already have an account? <a href="./signIn.html" class="link-purple fw-bold">Sign
                 in</a></p>
         </form>
     </div>

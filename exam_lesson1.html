@@ -10,6 +10,17 @@
     <div class="container">
         <ul class="navbar-nav me-auto">
             <li class="navbar-brand"><a class="nav-link" href="index.html">MathAcademy</a></li>
+            <li class="nav-item dropdown mt-2">
+                <a class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown" id="navbarDropdown">Courses</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="dropdown-item"><a href="./algebra1.html" class="nav-link">Algebra 1</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Algebra 2</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Geometry</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Trigonometry</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Linear Algebra</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Statistics and probability</a></li>
+                </ul>
+            </li>
         </ul>
         <div class="d-flex justify-content-end">
             <a href="./signIn.html" class="nav-link btn btn-purple text-light me-2 active" role="button">Sign in</a>
@@ -125,10 +136,12 @@
         </form>
         <hr>
         <p>Question 5: Evaluate <span class="fw-bold">0.3y+ y/z</span> when y=10 and z=5.</p>
-        <input type="text">
+        <label for="ans5">Answer:</label>
+        <input type="text" id="ans5">
         <hr>
         <p>Question 6: Combine like terms to simplify the expression: <span class="fw-bold">1.17−0.07a+(−3.92a)</span>:</p>
-        <input type="text">
+        <label for="ans6">Answer:</label>
+        <input type="text" id="ans6">
         <hr>
         <div class="d-flex justify-content-end">
             <button type="submit" class="btn btn-purple btn-lg">Check the answers</button>
@@ -136,6 +149,6 @@
     </div>
 </div>
 
-
+<script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
